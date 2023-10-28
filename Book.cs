@@ -1,7 +1,7 @@
 public class Book
 {
     public string title;
-    public string author;
+    public string author = "Unkonwn";
     private decimal price;
     private static int sold = 0;
     public Book(string title)
@@ -27,7 +27,7 @@ public class Book
             return sold;
         }
     }
-    public void GenerateIsbnNo()
+    public string GenerateIsbnNo()
     {
         Random random = new Random();
         int a = 13;
@@ -36,6 +36,7 @@ public class Book
         {
             ans += random.Next(0, 10);
         }
+        return ans;
     }
     public override string ToString()
     {

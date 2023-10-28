@@ -11,7 +11,7 @@ Console.WriteLine(book.ToString());
 Console.WriteLine(book2.ToString());
 
 var book3 = new Book("History of science");
-book3.author = "Dilmurod";
+//book3.author = "Dilmurod";
 Console.WriteLine("Total number of sold books: "+ book2.Sold);
 Console.WriteLine(book3.ToString());
 

@@ -1,0 +1,2 @@
+# OOPtask
+OOP amaliy vazifa
